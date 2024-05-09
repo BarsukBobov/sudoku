@@ -1,0 +1,62 @@
+.timer-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    color: #344861;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: .8;
+    margin: 0 0 10px 0;
+
+
+}
+
+
+.timer-pause {
+
+    display: flex;
+    width: 40px;
+    height: 40px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 0 0px;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    background: #eaeef4;
+    outline: none;
+    -webkit-tap-highlight-color: transparent
+}
+
+
+.timer-pause:hover {
+    background:#dce3ed;
+}
+
+
+.timer-pause:active {
+    background: #d2dae7
+}
+
+.icon-pause,.icon-play {
+    width: 21px;
+    height: 21px;
+    background-image: url(https://sudoku.com/build/images/game.00bbac29.png);
+    background-position: 47.3451% 94.9748%;
+    background-size: 784.8484% 703.0303%
+}
+
+.icon-play {
+    display: none;
+    background-position: 62.3893% 94.9748%
+}
+
+
+
+.icon-pause {
+    display: flex;
+}
+
